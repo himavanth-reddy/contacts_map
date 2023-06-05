@@ -55,7 +55,7 @@ function Layout() {
           </ul>
         </div>
       </aside>
-      <main className="h-fit px-3 py-6 sm:ml-64">
+      <main className="h-fit px-3  sm:ml-64">
         <div className="w-full h-10 block sm:hidden">
           <button onClick={toggleSidebar} className="h-full w-full text-left">
             <FontAwesomeIcon icon={faBars} className="text-2xl" />

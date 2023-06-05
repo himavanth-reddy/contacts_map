@@ -7,7 +7,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import "./index.css";
 import Layout from "./components/Layout";
 import Contacts from "./components/addressBook/Contacts";
-import ChartMap from "./components/chartsMap/ChartMap";
+import Map from "./components/chartsMap/Map";
 import PageNotFound from "./components/PageNotFound";
 const router = createBrowserRouter([
   {
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: "map",
-        element: <ChartMap />,
+        element: <Map />,
       },
     ],
   },
