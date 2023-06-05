@@ -1,5 +1,5 @@
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 const Map = () => {
   return (

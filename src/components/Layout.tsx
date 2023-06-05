@@ -17,7 +17,7 @@ function Layout() {
     <div className="">
       <aside
         id="default-sidebar"
-        className={`fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full ${
+        className={`fixed top-0 left-0 z-50 w-64 h-screen transition-transform -translate-x-full ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } sm:translate-x-0`}
       >
