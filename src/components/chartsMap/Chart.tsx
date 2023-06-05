@@ -68,9 +68,9 @@ const ChartComponent = () => {
     return <p>Error fetching country data</p>;
   }
   return (
-    <div className="h-400 sm:h-auto overflow-auto">
+    <>
       <Line options={options} data={data} />
-    </div>
+    </>
   );
 };
 

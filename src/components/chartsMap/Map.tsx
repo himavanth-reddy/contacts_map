@@ -59,7 +59,9 @@ const Map = () => {
           ))}
         </MapContainer>
       </div>
-      <ChartComponent />
+      <div className="max-h-80 md:max-h-80 lg:max-h-80">
+        <ChartComponent />
+      </div>
     </div>
   );
 };
